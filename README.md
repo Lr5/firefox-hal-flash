@@ -43,3 +43,5 @@ For more detailed instructions and solutions to possible problems, see [docker-c
 1. In one terminal, run ./start.sh to start the Docker container with the necessary services (to stop this later, use CTRL-c or equivalent).
 
 2. In another terminal, start Firefox by running ./access.sh (you might want to edit the file to change the default web page)
+
+3. When trying to view a video, you might need to allow flash player to run. Click the plugin button on the left of the address bar and ensure it is allowed to run. In some cases you might need to press "continue allowing" right after opening a video for the video to play.
