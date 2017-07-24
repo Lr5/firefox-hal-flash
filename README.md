@@ -44,4 +44,6 @@ For more detailed instructions and solutions to possible problems, see [docker-c
 
 2. In another terminal, start Firefox by running ./access.sh (you might want to edit the file to change the default web page)
 
-3. When trying to view a video, you might need to allow flash player to run. Click the plugin button on the left of the address bar and ensure it is allowed to run. In some cases you might need to press "continue allowing" right after opening a video for the video to play.
+3. Follow the instructions on [Adobe protected content test instructions](https://helpx.adobe.com/flash-player/kb/protected-video-content-play.html#id_79509). In particular, open the [test video player](http://drmtest2.adobe.com:8080/SVP/SampleVideoPlayer_FP.html) and play the video at address http://drmtest2.adobe.com:8080/Content/anonymous.f4v. This will setup the DRM module.
+
+4. When trying to view a video, you might need to allow flash player to run. Click the plugin button on the left of the address bar and ensure it is allowed to run. In some cases you might need to press "continue allowing" right after opening a video for the video to play.
